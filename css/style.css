@@ -1,0 +1,195 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'monospace', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/rectangle_1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    padding: 10px 90px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.header-text {
+    margin-top: 5%;
+    color: #fff;
+}
+
+.btn1,
+.btn2 {
+    margin-top: 20px;
+    padding: 10px 50px;
+    position: relative;
+
+
+
+}
+
+.img-diagonal {
+    position: absolute;
+    bottom: -18px;
+    left: 25px;
+    right: 25px;
+
+
+
+}
+
+.hexes {
+    position: absolute;
+    left: 65%;
+    bottom: 1%;
+
+
+}
+
+.img6 {
+    position: absolute;
+    left: 80%;
+    bottom: 60%;
+}
+
+.img5 {
+    position: absolute;
+    left: 86%;
+    bottom: 45%;
+}
+
+/* nav header css end */
+
+/* why choose css start */
+.row {
+    background-image: url(../images/bg_diagonal_copy_2.png);
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-left: 50px;
+    margin-top: 50px;
+
+}
+
+.hex_copy {
+    position: absolute;
+    bottom: 20%;
+    left: 10px;
+}
+
+.hex {
+    position: relative;
+    /* left: 5px; */
+    top: 70px;
+}
+
+/* choose us section end */
+/* Ready to take css section */
+.ready {
+    background-image: url(../images/bg_diagonal_copy_3.png);
+    background-position: center;
+    background-size: cover;
+    width: 110%;
+    height: auto;
+    margin-top: 200px;
+    padding: 100px 100px;
+    color: #fff;
+}
+
+.ready-content {
+    padding-left: 70px;
+
+}
+
+.btn2 {
+    padding: 10px 100px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.hexa {
+    position: absolute;
+    bottom: 86%;
+    left: 80px;
+}
+
+.hex-copy2 {
+    padding-left: 300px;
+    /* position: relative; */
+}
+
+.hex2 {
+    position: absolute;
+    bottom: 30%;
+    padding-left: 250px;
+}
+
+
+
+
+/* Ready to take css section end */
+
+/* footer section css */
+.map {
+    background-image: url(../images/bg_diagonal_copy_2.png);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 100px;
+    height: auto;
+}
+
+.footer {
+    padding: 0 100px;
+}
+
+.anchor a {
+    text-decoration: none;
+    color: #000;
+}
+
+.input {
+    position: absolute;
+    background-color: aliceblue;
+    color: #000;
+}
+
+.arrow {
+    position: relative;
+    left: 250px;
+}
+
+
+
+
+
+
+/* footer section css end*/
